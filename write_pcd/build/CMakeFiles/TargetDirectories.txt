@@ -1,3 +1,0 @@
-/home/drew/Desktop/capstone/write_pcd/build/CMakeFiles/rebuild_cache.dir
-/home/drew/Desktop/capstone/write_pcd/build/CMakeFiles/write_pcd.dir
-/home/drew/Desktop/capstone/write_pcd/build/CMakeFiles/edit_cache.dir

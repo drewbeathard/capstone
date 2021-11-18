@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.6)
+project (get_rosbag_duration)
+find_package(rosbag REQUIRED)
+include_directories(${rosbag_INCLUDE_DIRS})
+add_executable(get_rosbag_duration get_rosbag_duration.cpp)
+target_link_libraries(get_rosbag_duration ${rosbag_LIBRARIES})
