@@ -10,6 +10,14 @@ CMakeFiles/cpp_full.dir/cpp_full.cpp.o
  /opt/ros/melodic/include/class_loader/multi_library_class_loader.hpp
  /opt/ros/melodic/include/class_loader/register_macro.hpp
  /opt/ros/melodic/include/class_loader/visibility_control.hpp
+ /opt/ros/melodic/include/geometry_msgs/Point.h
+ /opt/ros/melodic/include/geometry_msgs/Pose.h
+ /opt/ros/melodic/include/geometry_msgs/PoseWithCovariance.h
+ /opt/ros/melodic/include/geometry_msgs/Quaternion.h
+ /opt/ros/melodic/include/geometry_msgs/Twist.h
+ /opt/ros/melodic/include/geometry_msgs/TwistWithCovariance.h
+ /opt/ros/melodic/include/geometry_msgs/Vector3.h
+ /opt/ros/melodic/include/nav_msgs/Odometry.h
  /opt/ros/melodic/include/pcl_conversions/pcl_conversions.h
  /opt/ros/melodic/include/pcl_msgs/ModelCoefficients.h
  /opt/ros/melodic/include/pcl_msgs/PointIndices.h
