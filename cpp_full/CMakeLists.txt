@@ -3,7 +3,8 @@ project (cpp_full)
 
 find_package(rosbag REQUIRED
 pcl_conversions
-pcl_msgs)
+pcl_msgs
+nav_msgs)
 
 
 find_package(Boost REQUIRED COMPONENTS system filesystem thread)
