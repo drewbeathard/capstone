@@ -2,8 +2,10 @@ cmake_minimum_required(VERSION 2.6)
 project (cpp_full)
 
 find_package(rosbag REQUIRED
+ros_cpp
 pcl_conversions
 pcl_msgs
+pcl_ros
 nav_msgs)
 
 
