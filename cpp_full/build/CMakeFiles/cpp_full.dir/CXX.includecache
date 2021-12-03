@@ -11,6 +11,8 @@ pcl_ros/point_cloud.h
 -
 pcl_ros/transforms.h
 -
+pcl_conversions/pcl_conversions.h
+-
 pcl/common/transforms.h
 -
 pcl/point_types.h
@@ -584,6 +586,16 @@ boost/mpl/size.hpp
 boost/ref.hpp
 -
 boost/thread/mutex.hpp
+-
+type_traits
+-
+memory
+-
+pcl/pcl_config.h
+-
+pcl/memory.h
+-
+pcl/make_shared.h
 -
 
 /opt/ros/melodic/include/pcl_ros/transforms.h

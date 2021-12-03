@@ -1,0 +1,6 @@
+devel_space: /home/drew/Desktop/capstone/ws/devel
+install: false
+install_space: /home/drew/Desktop/capstone/ws/install
+profile: default
+source_space: /home/drew/Desktop/capstone/ws/src
+workspace: /home/drew/Desktop/capstone/ws

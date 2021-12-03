@@ -1,0 +1,8 @@
+prefix=/home/drew/Desktop/capstone/ws/install
+
+Name: cpp_full
+Description: Description of cpp_full
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: rosbag roscpp pcl_conversions pcl_msgs pcl_ros nav_msgs

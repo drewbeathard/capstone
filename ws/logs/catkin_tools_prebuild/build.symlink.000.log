@@ -1,0 +1,12 @@
+Symlinking /home/drew/Desktop/capstone/ws/devel/./local_setup.sh
+Symlinking /home/drew/Desktop/capstone/ws/devel/./_setup_util.py
+Symlinking /home/drew/Desktop/capstone/ws/devel/./env.sh
+Symlinking /home/drew/Desktop/capstone/ws/devel/./local_setup.bash
+Symlinking /home/drew/Desktop/capstone/ws/devel/./local_setup.zsh
+Symlinking /home/drew/Desktop/capstone/ws/devel/./setup.bash
+Symlinking /home/drew/Desktop/capstone/ws/devel/./setup.sh
+Symlinking /home/drew/Desktop/capstone/ws/devel/./setup.zsh
+Symlinking /home/drew/Desktop/capstone/ws/devel/./cmake.lock
+Symlinking /home/drew/Desktop/capstone/ws/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Symlinking /home/drew/Desktop/capstone/ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/drew/Desktop/capstone/ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
