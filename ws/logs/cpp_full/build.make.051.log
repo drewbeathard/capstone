@@ -1,0 +1,56 @@
+[35m[1mScanning dependencies of target cpp_full[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cpp_full.dir/cpp_full.cpp.o[0m
+In file included from [01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_full.cpp:3:0[m[K:
+[01m[K/opt/ros/melodic/include/pcl_ros/point_cloud.h:303:27:[m[K [01;35m[Kwarning: [m[Kvariable templates only available with -std=c++14 or -std=gnu++14
+     constexpr static bool [01;35m[Kpcl_uses_boost[m[K = true;
+                           [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/melodic/include/roslz4/lz4s.h:38:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/rosbag/stream.h:46[m[K,
+                 from [01m[K/opt/ros/melodic/include/rosbag/chunked_file.h:46[m[K,
+                 from [01m[K/opt/ros/melodic/include/rosbag/bag.h:41[m[K,
+                 from [01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_full.cpp:17[m[K:
+[01m[K/usr/include/lz4.h:196:57:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Ktypedef struct LZ4_stream_t LZ4_stream_t[m[K’
+ typedef struct { long long table[LZ4_STREAMSIZE_U64]; } [01;31m[KLZ4_stream_t[m[K;
+                                                         [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/flann/util/serialization.h:9:0[m[K,
+                 from [01m[K/usr/include/flann/util/matrix.h:35[m[K,
+                 from [01m[K/usr/include/flann/flann.hpp:41[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/kdtree/flann.h:50[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/kdtree/kdtree_flann.h:45[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/search/kdtree.h:44[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/search/pcl_search.h:44[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/filters/statistical_outlier_removal.h:44[m[K,
+                 from [01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_full.cpp:11[m[K:
+[01m[K/usr/include/flann/ext/lz4.h:196:57:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Ktypedef struct LZ4_stream_t LZ4_stream_t[m[K’
+ typedef struct { long long table[LZ4_STREAMSIZE_U64]; } [01;36m[KLZ4_stream_t[m[K;
+                                                         [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/melodic/include/roslz4/lz4s.h:38:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/rosbag/stream.h:46[m[K,
+                 from [01m[K/opt/ros/melodic/include/rosbag/chunked_file.h:46[m[K,
+                 from [01m[K/opt/ros/melodic/include/rosbag/bag.h:41[m[K,
+                 from [01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_full.cpp:17[m[K:
+[01m[K/usr/include/lz4.h:249:72:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Ktypedef struct LZ4_streamDecode_t LZ4_streamDecode_t[m[K’
+ typedef struct { unsigned long long table[LZ4_STREAMDECODESIZE_U64]; } [01;31m[KLZ4_streamDecode_t[m[K;
+                                                                        [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/flann/util/serialization.h:9:0[m[K,
+                 from [01m[K/usr/include/flann/util/matrix.h:35[m[K,
+                 from [01m[K/usr/include/flann/flann.hpp:41[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/kdtree/flann.h:50[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/kdtree/kdtree_flann.h:45[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/search/kdtree.h:44[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/search/pcl_search.h:44[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/filters/statistical_outlier_removal.h:44[m[K,
+                 from [01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_full.cpp:11[m[K:
+[01m[K/usr/include/flann/ext/lz4.h:249:72:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Ktypedef struct LZ4_streamDecode_t LZ4_streamDecode_t[m[K’
+ typedef struct { unsigned long long table[LZ4_STREAMDECODESIZE_U64]; } [01;36m[KLZ4_streamDecode_t[m[K;
+                                                                        [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_full.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_full.cpp:101:41:[m[K [01;35m[Kwarning: [m[KNULL used in arithmetic [[01;35m[K-Wpointer-arith[m[K]
+             if (previousOdom.x_trans == [01;35m[KNULL[m[K) // if this odom message is our very first reading, use it regardless
+                                         [01;35m[K^~~~[m[K
+CMakeFiles/cpp_full.dir/build.make:62: recipe for target 'CMakeFiles/cpp_full.dir/cpp_full.cpp.o' failed
+make[2]: *** [CMakeFiles/cpp_full.dir/cpp_full.cpp.o] Error 1
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/cpp_full.dir/all' failed
+make[1]: *** [CMakeFiles/cpp_full.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

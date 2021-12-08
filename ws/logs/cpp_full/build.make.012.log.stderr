@@ -1,0 +1,115 @@
+In file included from [01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_full.cpp:3:0[m[K:
+[01m[K/opt/ros/melodic/include/pcl_ros/point_cloud.h:303:27:[m[K [01;35m[Kwarning: [m[Kvariable templates only available with -std=c++14 or -std=gnu++14
+     constexpr static bool [01;35m[Kpcl_uses_boost[m[K = true;
+                           [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_full.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_full.cpp:99:30:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator==[m[K’ (operand types are ‘[01m[KOdometry[m[K’ and ‘[01m[Klong int[m[K’)
+             if (previousOdom [01;31m[K=[m[K= NULL)
+                              [01;31m[K^[m[K
+In file included from [01m[K/usr/include/vtk-6.3/vtkSmartPointer.h:23:0[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/visualization/point_cloud_geometry_handlers.h:48[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/visualization/point_cloud_handlers.h:41[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/visualization/common/actor_map.h:40[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/visualization/pcl_visualizer.h:48[m[K,
+                 from [01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_full.cpp:26[m[K:
+[01m[K/usr/include/vtk-6.3/vtkSmartPointerBase.h:105:1:[m[K [01;36m[Knote: [m[Kcandidate: bool operator==(const vtkSmartPointerBase&, const vtkSmartPointerBase&)
+ [01;36m[KV[m[KTK_SMART_POINTER_BASE_DEFINE_OPERATOR(==)
+ [01;36m[K^[m[K
+[01m[K/usr/include/vtk-6.3/vtkSmartPointerBase.h:105:1:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KOdometry[m[K’ to ‘[01m[Kconst vtkSmartPointerBase&[m[K’
+[01m[K/usr/include/vtk-6.3/vtkSmartPointerBase.h:105:1:[m[K [01;36m[Knote: [m[Kcandidate: bool operator==(vtkObjectBase*, const vtkSmartPointerBase&)
+ [01;36m[KV[m[KTK_SMART_POINTER_BASE_DEFINE_OPERATOR(==)
+ [01;36m[K^[m[K
+[01m[K/usr/include/vtk-6.3/vtkSmartPointerBase.h:105:1:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KOdometry[m[K’ to ‘[01m[KvtkObjectBase*[m[K’
+[01m[K/usr/include/vtk-6.3/vtkSmartPointerBase.h:105:1:[m[K [01;36m[Knote: [m[Kcandidate: bool operator==(const vtkSmartPointerBase&, vtkObjectBase*)
+ [01;36m[KV[m[KTK_SMART_POINTER_BASE_DEFINE_OPERATOR(==)
+ [01;36m[K^[m[K
+[01m[K/usr/include/vtk-6.3/vtkSmartPointerBase.h:105:1:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KOdometry[m[K’ to ‘[01m[Kconst vtkSmartPointerBase&[m[K’
+In file included from [01m[K/usr/include/pcl-1.8/pcl/visualization/point_cloud_geometry_handlers.h:48:0[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/visualization/point_cloud_handlers.h:41[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/visualization/common/actor_map.h:40[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/visualization/pcl_visualizer.h:48[m[K,
+                 from [01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_full.cpp:26[m[K:
+[01m[K/usr/include/vtk-6.3/vtkSmartPointer.h:194:1:[m[K [01;36m[Knote: [m[Kcandidate: template<class T> bool operator==(const vtkSmartPointer<T>&, const vtkSmartPointer<T>&)
+ [01;36m[KV[m[KTK_SMART_POINTER_DEFINE_OPERATOR(==)
+ [01;36m[K^[m[K
+[01m[K/usr/include/vtk-6.3/vtkSmartPointer.h:194:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/x86_64-linux-gnu/sys/mman.h:25:0[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/io/impl/pcd_io.hpp:64[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/io/pcd_io.h:680[m[K,
+                 from [01m[K/opt/ros/melodic/include/pcl_conversions/pcl_conversions.h:70[m[K,
+                 from [01m[K/opt/ros/melodic/include/pcl_ros/point_cloud.h:9[m[K,
+                 from [01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_full.cpp:3[m[K:
+[01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_full.cpp:99:33:[m[K [01;36m[Knote: [m[K  ‘[01m[KOdometry[m[K’ is not derived from ‘[01m[Kconst vtkSmartPointer<T>[m[K’
+             if (previousOdom == [01;36m[KN[m[KULL)
+                                 [01;36m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.8/pcl/visualization/point_cloud_geometry_handlers.h:48:0[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/visualization/point_cloud_handlers.h:41[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/visualization/common/actor_map.h:40[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/visualization/pcl_visualizer.h:48[m[K,
+                 from [01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_full.cpp:26[m[K:
+[01m[K/usr/include/vtk-6.3/vtkSmartPointer.h:194:1:[m[K [01;36m[Knote: [m[Kcandidate: template<class T> bool operator==(T*, const vtkSmartPointer<T>&)
+ [01;36m[KV[m[KTK_SMART_POINTER_DEFINE_OPERATOR(==)
+ [01;36m[K^[m[K
+[01m[K/usr/include/vtk-6.3/vtkSmartPointer.h:194:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/x86_64-linux-gnu/sys/mman.h:25:0[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/io/impl/pcd_io.hpp:64[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/io/pcd_io.h:680[m[K,
+                 from [01m[K/opt/ros/melodic/include/pcl_conversions/pcl_conversions.h:70[m[K,
+                 from [01m[K/opt/ros/melodic/include/pcl_ros/point_cloud.h:9[m[K,
+                 from [01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_full.cpp:3[m[K:
+[01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_full.cpp:99:33:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[KT*[m[K’ and ‘[01m[KOdometry[m[K’
+             if (previousOdom == [01;36m[KN[m[KULL)
+                                 [01;36m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.8/pcl/visualization/point_cloud_geometry_handlers.h:48:0[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/visualization/point_cloud_handlers.h:41[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/visualization/common/actor_map.h:40[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/visualization/pcl_visualizer.h:48[m[K,
+                 from [01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_full.cpp:26[m[K:
+[01m[K/usr/include/vtk-6.3/vtkSmartPointer.h:194:1:[m[K [01;36m[Knote: [m[Kcandidate: template<class T> bool operator==(const vtkSmartPointer<T>&, T*)
+ [01;36m[KV[m[KTK_SMART_POINTER_DEFINE_OPERATOR(==)
+ [01;36m[K^[m[K
+[01m[K/usr/include/vtk-6.3/vtkSmartPointer.h:194:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/x86_64-linux-gnu/sys/mman.h:25:0[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/io/impl/pcd_io.hpp:64[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/io/pcd_io.h:680[m[K,
+                 from [01m[K/opt/ros/melodic/include/pcl_conversions/pcl_conversions.h:70[m[K,
+                 from [01m[K/opt/ros/melodic/include/pcl_ros/point_cloud.h:9[m[K,
+                 from [01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_full.cpp:3[m[K:
+[01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_full.cpp:99:33:[m[K [01;36m[Knote: [m[K  ‘[01m[KOdometry[m[K’ is not derived from ‘[01m[Kconst vtkSmartPointer<T>[m[K’
+             if (previousOdom == [01;36m[KN[m[KULL)
+                                 [01;36m[K^[m[K
+In file included from [01m[K/usr/include/vtk-6.3/vtkObject.h:45:0[m[K,
+                 from [01m[K/usr/include/vtk-6.3/vtkPoints.h:24[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/visualization/point_cloud_geometry_handlers.h:49[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/visualization/point_cloud_handlers.h:41[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/visualization/common/actor_map.h:40[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/visualization/pcl_visualizer.h:48[m[K,
+                 from [01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_full.cpp:26[m[K:
+[01m[K/usr/include/vtk-6.3/vtkWeakPointerBase.h:97:1:[m[K [01;36m[Knote: [m[Kcandidate: bool operator==(const vtkWeakPointerBase&, const vtkWeakPointerBase&)
+ [01;36m[KV[m[KTK_WEAK_POINTER_BASE_DEFINE_OPERATOR(==)
+ [01;36m[K^[m[K
+[01m[K/usr/include/vtk-6.3/vtkWeakPointerBase.h:97:1:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KOdometry[m[K’ to ‘[01m[Kconst vtkWeakPointerBase&[m[K’
+[01m[K/usr/include/vtk-6.3/vtkWeakPointerBase.h:97:1:[m[K [01;36m[Knote: [m[Kcandidate: bool operator==(vtkObjectBase*, const vtkWeakPointerBase&)
+ [01;36m[KV[m[KTK_WEAK_POINTER_BASE_DEFINE_OPERATOR(==)
+ [01;36m[K^[m[K
+[01m[K/usr/include/vtk-6.3/vtkWeakPointerBase.h:97:1:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KOdometry[m[K’ to ‘[01m[KvtkObjectBase*[m[K’
+[01m[K/usr/include/vtk-6.3/vtkWeakPointerBase.h:97:1:[m[K [01;36m[Knote: [m[Kcandidate: bool operator==(const vtkWeakPointerBase&, vtkObjectBase*)
+ [01;36m[KV[m[KTK_WEAK_POINTER_BASE_DEFINE_OPERATOR(==)
+ [01;36m[K^[m[K
+[01m[K/usr/include/vtk-6.3/vtkWeakPointerBase.h:97:1:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KOdometry[m[K’ to ‘[01m[Kconst vtkWeakPointerBase&[m[K’
+In file included from [01m[K/usr/include/vtk-6.3/vtkVariant.h:37:0[m[K,
+                 from [01m[K/usr/include/vtk-6.3/vtkAbstractArray.h:46[m[K,
+                 from [01m[K/usr/include/vtk-6.3/vtkDataArray.h:38[m[K,
+                 from [01m[K/usr/include/vtk-6.3/vtkPoints.h:26[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/visualization/point_cloud_geometry_handlers.h:49[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/visualization/point_cloud_handlers.h:41[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/visualization/common/actor_map.h:40[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/visualization/pcl_visualizer.h:48[m[K,
+                 from [01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_full.cpp:26[m[K:
+[01m[K/usr/include/vtk-6.3/vtkUnicodeString.h:235:27:[m[K [01;36m[Knote: [m[Kcandidate: bool operator==(const vtkUnicodeString&, const vtkUnicodeString&)
+ VTKCOMMONCORE_EXPORT bool [01;36m[Koperator[m[K==(const vtkUnicodeString& lhs, const vtkUnicodeString& rhs);
+                           [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/vtk-6.3/vtkUnicodeString.h:235:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KOdometry[m[K’ to ‘[01m[Kconst vtkUnicodeString&[m[K’
+make[2]: *** [CMakeFiles/cpp_full.dir/cpp_full.cpp.o] Error 1
+make[1]: *** [CMakeFiles/cpp_full.dir/all] Error 2
+make: *** [all] Error 2

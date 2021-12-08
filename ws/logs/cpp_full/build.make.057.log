@@ -8,5 +8,12 @@ In file included from [01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_fu
 [01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_full.cpp:101:41:[m[K [01;35m[Kwarning: [m[KNULL used in arithmetic [[01;35m[K-Wpointer-arith[m[K]
              if (previousOdom.x_trans == [01;35m[KNULL[m[K) // if this odom message is our very first reading, use it regardless
                                          [01;35m[K^~~~[m[K
-[100%] [32m[1mLinking CXX executable /home/drew/Desktop/capstone/ws/devel/.private/cpp_full/lib/cpp_full/cpp_full[0m
-[100%] Built target cpp_full
+[01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_full.cpp:212:100:[m[K [01;31m[Kerror: [m[K‘[01m[Koutliered_cloud[m[K’ was not declared in this scope
+     pcl::visualization::PointCloudColorHandlerCustom<pcl::PointXYZ> outliered_cloud_color_handler ([01;31m[Koutliered_cloud[m[K, 230, 20, 20); // Red
+                                                                                                    [01;31m[K^~~~~~~~~~~~~~~[m[K
+CMakeFiles/cpp_full.dir/build.make:62: recipe for target 'CMakeFiles/cpp_full.dir/cpp_full.cpp.o' failed
+make[2]: *** [CMakeFiles/cpp_full.dir/cpp_full.cpp.o] Error 1
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/cpp_full.dir/all' failed
+make[1]: *** [CMakeFiles/cpp_full.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

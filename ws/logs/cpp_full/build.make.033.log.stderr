@@ -1,0 +1,24 @@
+In file included from [01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_full.cpp:3:0[m[K:
+[01m[K/opt/ros/melodic/include/pcl_ros/point_cloud.h:303:27:[m[K [01;35m[Kwarning: [m[Kvariable templates only available with -std=c++14 or -std=gnu++14
+     constexpr static bool [01;35m[Kpcl_uses_boost[m[K = true;
+                           [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_full.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_full.cpp:99:41:[m[K [01;35m[Kwarning: [m[KNULL used in arithmetic [[01;35m[K-Wpointer-arith[m[K]
+             if (previousOdom.x_trans == [01;35m[KNULL[m[K) // if this odom message is our very first reading, use it regardless
+                                         [01;35m[K^~~~[m[K
+[01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_full.cpp:200:38:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kpcl::VoxelGrid<pcl::PointXYZ>::setInputCloud(pcl::PointCloud<pcl::PointXYZ>&)[m[K’
+  sor.setInputCloud(*global_pointcloud[01;31m[K)[m[K;//Set the input point cloud
+                                      [01;31m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.8/pcl/common/io.h:45:0[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/io/file_io.h:42[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/io/pcd_io.h:44[m[K,
+                 from [01m[K/opt/ros/melodic/include/pcl_conversions/pcl_conversions.h:70[m[K,
+                 from [01m[K/opt/ros/melodic/include/pcl_ros/point_cloud.h:9[m[K,
+                 from [01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_full.cpp:3[m[K:
+[01m[K/usr/include/pcl-1.8/pcl/pcl_base.h:95:7:[m[K [01;36m[Knote: [m[Kcandidate: void pcl::PCLBase<PointT>::setInputCloud(const PointCloudConstPtr&) [with PointT = pcl::PointXYZ; pcl::PCLBase<PointT>::PointCloudConstPtr = boost::shared_ptr<const pcl::PointCloud<pcl::PointXYZ> >]
+       [01;36m[KsetInputCloud[m[K (const PointCloudConstPtr &cloud);
+       [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.8/pcl/pcl_base.h:95:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kpcl::PointCloud<pcl::PointXYZ>[m[K’ to ‘[01m[Kconst PointCloudConstPtr& {aka const boost::shared_ptr<const pcl::PointCloud<pcl::PointXYZ> >&}[m[K’
+make[2]: *** [CMakeFiles/cpp_full.dir/cpp_full.cpp.o] Error 1
+make[1]: *** [CMakeFiles/cpp_full.dir/all] Error 2
+make: *** [all] Error 2

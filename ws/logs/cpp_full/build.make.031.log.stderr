@@ -1,0 +1,31 @@
+In file included from [01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_full.cpp:3:0[m[K:
+[01m[K/opt/ros/melodic/include/pcl_ros/point_cloud.h:303:27:[m[K [01;35m[Kwarning: [m[Kvariable templates only available with -std=c++14 or -std=gnu++14
+     constexpr static bool [01;35m[Kpcl_uses_boost[m[K = true;
+                           [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_full.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_full.cpp:97:41:[m[K [01;35m[Kwarning: [m[KNULL used in arithmetic [[01;35m[K-Wpointer-arith[m[K]
+             if (previousOdom.x_trans == [01;35m[KNULL[m[K) // if this odom message is our very first reading, use it regardless
+                                         [01;35m[K^~~~[m[K
+[01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_full.cpp:191:10:[m[K [01;31m[Kerror: [m[K‘[01m[KVoxelGrid[m[K’ is not a member of ‘[01m[Kpcl[m[K’
+     pcl::[01;31m[KVoxelGrid[m[K<pcl::PCLPointCloud2> sor;
+          [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_full.cpp:191:39:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+     pcl::VoxelGrid<pcl::PCLPointCloud2[01;31m[K>[m[K sor;
+                                       [01;31m[K^[m[K
+[01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_full.cpp:191:41:[m[K [01;31m[Kerror: [m[K‘[01m[Ksor[m[K’ was not declared in this scope
+     pcl::VoxelGrid<pcl::PCLPointCloud2> [01;31m[Ksor[m[K;
+                                         [01;31m[K^~~[m[K
+[01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_full.cpp:191:41:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ksbrk[m[K’
+     pcl::VoxelGrid<pcl::PCLPointCloud2> [01;36m[Ksor[m[K;
+                                         [01;36m[K^~~[m[K
+                                         [32m[Ksbrk[m[K
+[01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_full.cpp:194:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kglobal_pointcloud_filtered[m[K’ was not declared in this scope
+     sor.filter (*[01;31m[Kglobal_pointcloud_filtered[m[K);
+                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_full.cpp:194:18:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kglobal_pointcloud[m[K’
+     sor.filter (*[01;36m[Kglobal_pointcloud_filtered[m[K);
+                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+                  [32m[Kglobal_pointcloud[m[K
+make[2]: *** [CMakeFiles/cpp_full.dir/cpp_full.cpp.o] Error 1
+make[1]: *** [CMakeFiles/cpp_full.dir/all] Error 2
+make: *** [all] Error 2
