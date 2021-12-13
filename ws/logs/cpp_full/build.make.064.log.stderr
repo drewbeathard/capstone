@@ -1,0 +1,11 @@
+In file included from [01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_full.cpp:3:0[m[K:
+[01m[K/opt/ros/melodic/include/pcl_ros/point_cloud.h:303:27:[m[K [01;35m[Kwarning: [m[Kvariable templates only available with -std=c++14 or -std=gnu++14
+     constexpr static bool [01;35m[Kpcl_uses_boost[m[K = true;
+                           [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_full.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_full.cpp:78:12:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[Kcounter[m[K’
+         if [01;31m[Kcounter[m[K == iterator
+            [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/cpp_full.dir/cpp_full.cpp.o] Error 1
+make[1]: *** [CMakeFiles/cpp_full.dir/all] Error 2
+make: *** [all] Error 2

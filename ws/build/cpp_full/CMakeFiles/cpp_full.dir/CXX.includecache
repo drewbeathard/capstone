@@ -17,6 +17,12 @@ pcl/common/transforms.h
 -
 pcl/point_types.h
 -
+pcl/console/parse.h
+-
+pcl/common/transforms.h
+-
+pcl/visualization/pcl_visualizer.h
+-
 iostream
 -
 pcl/io/pcd_io.h
@@ -38,12 +44,6 @@ std_msgs/String.h
 nav_msgs/Odometry.h
 -
 boost/foreach.hpp
--
-pcl/console/parse.h
--
-pcl/common/transforms.h
--
-pcl/visualization/pcl_visualizer.h
 -
 pcl/common/io.h
 -

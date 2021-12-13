@@ -5,7 +5,7 @@ In file included from [01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_fu
      constexpr static bool [01;35m[Kpcl_uses_boost[m[K = true;
                            [01;35m[K^~~~~~~~~~~~~~[m[K
 [01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_full.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
-[01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_full.cpp:103:45:[m[K [01;35m[Kwarning: [m[KNULL used in arithmetic [[01;35m[K-Wpointer-arith[m[K]
+[01m[K/home/drew/Desktop/capstone/ws/src/cpp_full/cpp_full.cpp:104:45:[m[K [01;35m[Kwarning: [m[KNULL used in arithmetic [[01;35m[K-Wpointer-arith[m[K]
                  if (previousOdom.x_trans == [01;35m[KNULL[m[K) // if this odom message is our very first reading, use it regardless
                                              [01;35m[K^~~~[m[K
 [100%] [32m[1mLinking CXX executable /home/drew/Desktop/capstone/ws/devel/.private/cpp_full/lib/cpp_full/cpp_full[0m
